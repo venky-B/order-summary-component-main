@@ -54,8 +54,8 @@ body {
 }
 
 .container {
-  margin: 100px;
-  margin-bottom: 0;
+  margin: 10px 100px 0 100px;
+
   display: flex;
   justify-content: center;
   align-items: center;
