@@ -44,7 +44,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* width: 1440px; */
   min-height: 100vh;
 
   background-image: url(./images/pattern-background-desktop.svg);
@@ -82,7 +81,7 @@ body {
   color: var(--Desaturated-blue);
 }
 
-.price h5 {
+.price h2 {
   font-weight: 900;
 }
 
@@ -94,7 +93,6 @@ body {
   background-color: var(--Very-pale-blue);
   padding: 24px 28px;
   width: 350px;
-
   border-radius: 10px;
 }
 
@@ -104,8 +102,6 @@ body {
   color: var(--Bright-blue);
 
   font-weight: bold;
-
-  /* flex-shrink: 0; */
 }
 
 .chg:hover {
@@ -136,7 +132,6 @@ body {
 
 .cancel-order {
   color: var(--Desaturated-blue);
-  /* background-color: #fff; */
   text-decoration: none;
   border: none;
   padding: 8px 24px;
@@ -154,6 +149,9 @@ h1 {
   color: var(--Dark-blue);
 }
 
+h2 {
+  font-size: 16px;
+}
 @media only screen and (max-width: 625px) {
   body {
     background-image: url(./images/pattern-background-mobile.svg);
